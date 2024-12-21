@@ -1,0 +1,66 @@
+body {
+    background: #f8f9fa;
+}
+
+/* Menú principal */
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Destacar opción activa del menú */
+.nav-link.active {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* Hover en menú principal */
+.nav-link:hover, .dropdown-item:hover {
+    background: #ffe5b4; /* Naranja claro */
+    color: #000 !important;
+}
+
+/* Footer links */
+.footer .footer-link {
+    color: #ccc;
+    text-decoration: none;
+}
+.footer .footer-link:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Estilo de la lista de grupos */
+.list-group-item {
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.list-group-item:hover {
+    background-color: #e9ecef;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+.list-group-item h5 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+.list-group-item p strong, 
+.list-group-item p small {
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    border-top: 1px solid #444;
+}
+
+.footer .social-icons a {
+    font-size: 1.2rem;
+}
+
+.modal-header .modal-title {
+    font-weight: 600;
+}
+
+/* Botones al lado de "Publica tu grupo" */
+.navbar .btn {
+    margin-left: 15px;
+}
